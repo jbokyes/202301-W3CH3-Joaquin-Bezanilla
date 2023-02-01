@@ -1,4 +1,4 @@
-import { Pet, PetStructure } from '../src/models/pets';
+import { Pet, PetStructure } from '../models/pets';
 
 export const PET: PetStructure[] = [
   new Pet('Gato', 'Gordo'),
