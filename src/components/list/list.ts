@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { PetStructure } from '../../models/pets';
 import { Component } from '../component/component';
-import './tasks.scss';
 
 export class Pets extends Component {
   constructor(public selector: string, public pets: PetStructure[]) {
@@ -16,7 +15,7 @@ export class Pets extends Component {
         (item) => `
         <li class="card">
           <span>${item.name}</span>
-          <span title="${item.id}">${item.name}</span>
+          <span title="">${item.id}</span>
           <span>${item.breed}</span>
         </li>`
       )
