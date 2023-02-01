@@ -5,4 +5,12 @@ img {
 
 li {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.cardbody {
+  display: flex;
+  flex-direction: row;
 }

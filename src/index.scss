@@ -4,6 +4,8 @@
 
 body {
   background-color: palevioletred;
+  display: flex;
+  flex-direction: row;
 }
 .img {
   width: 200px;

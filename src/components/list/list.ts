@@ -14,12 +14,14 @@ export class Pets extends Component {
     const items = this.pets
       .map(
         (item) => `
+        <div class = "cardbody">
         <li class="card">
           <img class="img" src="../img/${item.name}.jpg" alt="">
-          <span>${item.name}, </span>
-          <span title="">${item.id}, </span>
-          <span>${item.breed}</span>
-        </li>`
+          <div>${item.name}, </div>
+          <div title="">${item.id}, </div>
+          <div>${item.breed}</div>
+        </li>
+        </div>`
       )
       .join('\n');
     return `
