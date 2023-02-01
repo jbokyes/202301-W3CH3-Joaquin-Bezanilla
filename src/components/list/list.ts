@@ -17,9 +17,9 @@ export class Pets extends Component {
         <div class = "cardbody">
         <li class="card">
           <img class="img" src="../img/${item.name}.jpg" alt="">
-          <div>${item.name}, </div>
-          <div title="">${item.id}, </div>
-          <div>${item.breed}</div>
+          <span>${item.name}, </span>
+          <span title="">${item.id}, </span>
+          <span>${item.breed}</span>
         </li>
         </div>`
       )
